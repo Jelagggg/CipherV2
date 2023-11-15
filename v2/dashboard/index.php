@@ -1,0 +1,1 @@
+<? die(header('location:dashboard.php')); ?>

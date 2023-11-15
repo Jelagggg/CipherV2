@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+.containAll {
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.containAll .containLoader {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  margin: auto;
+}
+.containAll .containLoader .circleGroup {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.containAll .containLoader .circle-1 {
+  border: 7px solid #0f9;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid transparent;
+  -webkit-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -moz-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -o-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -webkit-animation-delay: 30ms;
+  -moz-animation-delay: 30ms;
+  -o-animation-delay: 30ms;
+  animation-delay: 30ms;
+}
+.containAll .containLoader .circle-2 {
+  border: 7px solid #0f9;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid transparent;
+  -webkit-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -moz-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -o-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -webkit-animation-delay: 60ms;
+  -moz-animation-delay: 60ms;
+  -o-animation-delay: 60ms;
+  animation-delay: 60ms;
+}
+.containAll .containLoader .circle-3 {
+  border: 7px solid #0f9;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid transparent;
+  -webkit-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -moz-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -o-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -webkit-animation-delay: 90ms;
+  -moz-animation-delay: 90ms;
+  -o-animation-delay: 90ms;
+  animation-delay: 90ms;
+}
+.containAll .containLoader .circle-4 {
+  border: 7px solid #0f9;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid transparent;
+  -webkit-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -moz-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -o-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -webkit-animation-delay: 120ms;
+  -moz-animation-delay: 120ms;
+  -o-animation-delay: 120ms;
+  animation-delay: 120ms;
+}
+.containAll .containLoader .circle-5 {
+  border: 7px solid #0f9;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid transparent;
+  -webkit-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -moz-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -o-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -webkit-animation-delay: 150ms;
+  -moz-animation-delay: 150ms;
+  -o-animation-delay: 150ms;
+  animation-delay: 150ms;
+}
+.containAll .containLoader .circle-6 {
+  border: 7px solid #0f9;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid transparent;
+  -webkit-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -moz-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -o-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -webkit-animation-delay: 180ms;
+  -moz-animation-delay: 180ms;
+  -o-animation-delay: 180ms;
+  animation-delay: 180ms;
+}
+.containAll .containLoader .circle-7 {
+  border: 7px solid #0f9;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid transparent;
+  -webkit-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -moz-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -o-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -webkit-animation-delay: 210ms;
+  -moz-animation-delay: 210ms;
+  -o-animation-delay: 210ms;
+  animation-delay: 210ms;
+}
+.containAll .containLoader .circle-8 {
+  border: 7px solid #0f9;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid transparent;
+  -webkit-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -moz-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -o-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+  -webkit-animation-delay: 240ms;
+  -moz-animation-delay: 240ms;
+  -o-animation-delay: 240ms;
+  animation-delay: 240ms;
+}
+.containAll .containLoader .innerText {
+  position: absolute;
+  font-family: 'Quicksand', sans-serif;
+  bottom: -40px;
+  animation: flash 1.2s ease-in-out infinite;
+  pointer-events: none;
+}
+@keyframes rotate {
+  50% {
+    border: 1px solid #0f9;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+  }
+  100% {
+    transform: rotatez(360deg);
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
